@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  penyewaanmobil.apigateway:
+    image: ${DOCKER_REGISTRY-}penyewaanmobilapigateway
+    build:
+      context: .
+      dockerfile: PenyewaanMobil.APIGATEWAY/Dockerfile
+
+  penyewaanmobil.apps:
+    image: ${DOCKER_REGISTRY-}penyewaanmobilapps
+    build:
+      context: .
+      dockerfile: PenyewaanMobil.APPS/Dockerfile
+
+
+  servicepenyewaan.api:
+    image: ${DOCKER_REGISTRY-}servicepenyewaanapi
+    build:
+      context: .
+      dockerfile: ServicePenyewaan.API/Dockerfile
+

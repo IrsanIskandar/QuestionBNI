@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7271594-FF3E-47E6-A317-09742B8F19AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePenyewaan.API", "ServicePenyewaan.API\ServicePenyewaan.API.csproj", "{8EBAA030-A47C-4258-87A2-08E937692A0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicePenyewaan.API", "ServicePenyewaan.API\ServicePenyewaan.API.csproj", "{8EBAA030-A47C-4258-87A2-08E937692A0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenyewaanMobil.APPS", "PenyewaanMobil.APPS\PenyewaanMobil.APPS.csproj", "{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenyewaanMobil.APPS", "PenyewaanMobil.APPS\PenyewaanMobil.APPS.csproj", "{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenyewaanMobil.APIGATEWAY", "PenyewaanMobil.APIGATEWAY\PenyewaanMobil.APIGATEWAY.csproj", "{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PenyewaanMobil.APIGATEWAY", "PenyewaanMobil.APIGATEWAY\PenyewaanMobil.APIGATEWAY.csproj", "{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A37E04B3-FDD0-4217-8452-9D71443E42DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37E04B3-FDD0-4217-8452-9D71443E42DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37E04B3-FDD0-4217-8452-9D71443E42DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37E04B3-FDD0-4217-8452-9D71443E42DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37E04B3-FDD0-4217-8452-9D71443E42DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
