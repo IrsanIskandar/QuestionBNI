@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F7271594-FF3E-47E6-A317-09742B8F19AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicePenyewaan.API", "ServicePenyewaan.API\ServicePenyewaan.API.csproj", "{8EBAA030-A47C-4258-87A2-08E937692A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenyewaanMobil.APPS", "PenyewaanMobil.APPS\PenyewaanMobil.APPS.csproj", "{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PenyewaanMobil.APIGATEWAY", "PenyewaanMobil.APIGATEWAY\PenyewaanMobil.APIGATEWAY.csproj", "{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EBAA030-A47C-4258-87A2-08E937692A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBAA030-A47C-4258-87A2-08E937692A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBAA030-A47C-4258-87A2-08E937692A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBAA030-A47C-4258-87A2-08E937692A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EBAA030-A47C-4258-87A2-08E937692A0B} = {F7271594-FF3E-47E6-A317-09742B8F19AD}
+		{6A2DAE49-49DC-45DC-A435-2EC8AB2CD969} = {F7271594-FF3E-47E6-A317-09742B8F19AD}
+		{27237DAF-6EEE-4D8E-9151-E1E0F3C64336} = {F7271594-FF3E-47E6-A317-09742B8F19AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D14DC480-86EE-4507-BDB2-38B0F01C5041}
+	EndGlobalSection
+EndGlobal
